@@ -2,10 +2,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
-
 nav {
   background-color: #333;
   padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav a:hover {
+  color: yellow;
 }
 
 nav a {
